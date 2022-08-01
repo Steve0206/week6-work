@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    /*擴充專案的全站樣式*/
+    html {
+        font-family: "Azeret Mono", "Noto Sans Traditional Chinese", system-ui, sans-serif;
+    }
+}
+
+@layer components {
+    /*自組元件*/
+}
+
+@layer utilities {
+    /*自組樣式*/
+    .text-hidden{
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .text-color-mix{
+        background: linear-gradient(top, #09ACF5, #62DB54);
+        background-clip: text;
+        color: transparent;
+    }
+    .bg-color-mix-x{
+        background: linear-gradient(left, #09ACF5, #62DB54);
+    }
+    .bg-color-mix-y {
+        background: linear-gradient(top, #09ACF5, #62DB54);
+    }
+    .bg-color-none{
+        background: transparent;
+        background-clip: border-box;
+    }
+    .green-line{
+        background: #62DB54;
+        width: 50px;
+        height: 3px;
+    }
+}
