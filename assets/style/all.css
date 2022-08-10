@@ -993,7 +993,7 @@ a{
   background-color: rgb(193 193 193 / var(--tw-bg-opacity));
 }
 .bg-m-home{
-  background-image: url('week6-work/assets/images/bg_home_mobile.jpg');
+  background-image: url('/assets/images/bg_home_mobile.jpg');
 }
 .bg-info-1{
   background-image: url('/assets/images/info01.jpg');
@@ -1914,7 +1914,7 @@ a{
     background-color: rgb(45 45 45 / var(--tw-bg-opacity));
   }
   .lg\:bg-home{
-    background-image: url('../assets/images/bg_home.jpg');
+    background-image: url('/assets/images/bg_home.jpg');
   }
   .lg\:p-8{
     padding: 2rem;
