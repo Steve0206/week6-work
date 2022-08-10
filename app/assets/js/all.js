@@ -27,18 +27,18 @@ $('document').ready(function() {
 		},
 		
 	});
-	//滑鼠移過去停止撥動
+		//滑鼠移過去停止撥動
 	swiper.el.onmouseover = function(){
 		swiper.autoplay.stop();
 	}
 
 	//滑鼠移開自動撥放
 	swiper.el.onmouseout = function(){
-			swiper.autoplay.start();
+		swiper.autoplay.start();
 	}
-	//const elem = document.querySelector('input[name="foo"]');
-	//const datepicker = new Datepicker(elem, {
+	const elem = document.querySelector('input[name="foo"]');
+	const datepicker = new Datepicker(elem, {
 		
-	//}); 
+	}); 
     
 });

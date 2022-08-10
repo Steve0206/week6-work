@@ -29,15 +29,15 @@
         background-repeat: no-repeat;
     }
     .text-color-mix{
-        background: linear-gradient(top, #09ACF5, #62DB54);
+        background: linear-gradient(to bottom, #09ACF5, #62DB54);
         background-clip: text;
         color: transparent;
     }
     .bg-color-mix-x{
-        background: linear-gradient(left, #09ACF5, #62DB54);
+        background: linear-gradient(to right, #09ACF5, #62DB54);
     }
     .bg-color-mix-y {
-        background: linear-gradient(top, #09ACF5, #62DB54);
+        background: linear-gradient(to bottom, #09ACF5, #62DB54);
     }
     .bg-color-none{
         background: transparent;
