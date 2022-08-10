@@ -7,7 +7,10 @@
 @layer base {
     /*擴充專案的全站樣式*/
     html {
-        font-family: "Azeret Mono", "Noto Sans Traditional Chinese", system-ui, sans-serif;
+        font-family: "Azeret Mono", "Noto Sans TC", system-ui, sans-serif;
+    }
+    a{
+        color:inherit;
     }
 }
 
@@ -45,4 +48,56 @@
         width: 50px;
         height: 3px;
     }
+    .green-active{
+        color:#62DB54;
+        border-color:#62DB54;
+    }
+    .swiper .swiper-pagination .swiper-pagination-bullet {
+        background-color: #62DB54;
+        opacity:1;
+    }
+    .swiper .swiper-pagination .swiper-pagination-bullet-active {
+        width: 16px;
+        border-radius:5px;
+    }
+    .swiper .swiper-pagination {
+        position: unset;
+        width: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: unset;
+        width: 24px;
+        height: 24px;
+        margin-top: 0;
+        color: #62DB54;
+    }
+    .swiper .swiper-button-next:after,
+    .swiper .swiper-button-prev:after {
+        content: '';
+    }
+    .swiper-img::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #7C7E77;
+        border-radius: 24px;
+        left: -10px;
+        top: 10px;
+        z-index: -1;
+    }
+
+    .list-square{
+        list-style-type: square;
+        
+    }
+    .triangle-down{
+        border-color: #2D2D2D transparent transparent transparent;
+    }
+    .triangle-right {
+        border-color: transparent transparent transparent #2D2D2D;
+    }
+
 }

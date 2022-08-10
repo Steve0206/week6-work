@@ -19,18 +19,19 @@ module.exports = {
     colors: {
       'green':'#62DB54',
       'blue' :'#09ACF5',
+      'gray':'#C1C1C1',
+      'lightgray' : '#2D2D2D',
+      'midgray' : '#202020',
       'darkgray' : '#1C1C1C',
       'footerbg' : '#1A1A1A',
-      'midgray' : '#202020',
-      'lightgray' : '#2D2D2D',
       'footergray' : '#909090',
       'white' : '#ffffff',
       'black' : '#000000',
-      'gray':'#C1C1C1',
+
     },
     extend: {
       fontFamily: {
-        'sans': ['"Azeret Mono"','Noto Sans Traditional Chinese"', ...defaultTheme.fontFamily.sans],
+        'display': ['"Azeret Mono"','"Noto Sans TC"', ...defaultTheme.fontFamily.sans],
       },
     },
   },

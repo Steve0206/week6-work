@@ -1,0 +1,60 @@
+---
+title: paid
+layout: ./app/layout.ejs
+engine: ejs
+current: paid
+---
+<main class="pt-[72px] md:pt-[90px]">
+    <div class="bg-black lg:bg-darkgray py-6 lg:pb-4">
+        <div class="container sm:container md:container lg:container xl:container 2xl:container">
+            <ul
+                class="flex justify-between mx-auto lg:w-2/3 relative before:absolute before:left-6 before:top-2.5 before:w-[44%] md:before:w-[46%] lg:before:w-[48%] before:h-px before:bg-green after:absolute after:right-6 after:top-2.5 after:w-[44%] md:after:w-[46%] lg:after:w-[48%] after:h-px after:bg-gray ">
+                <li>
+                    <div
+                        class="block mx-auto bg-green rounded-full w-5 h-5 text-white text-sm leading-5 flex justify-center items-center relative z-10">
+                        <span class="material-icons text-sm">
+                            done
+                        </span>
+                    </div>
+                    <p class="text-green text-center mt-1 lg:mt-2">課程報名</p>
+                </li>
+                <li>
+                    <div
+                        class="block mx-auto bg-green rounded-full w-5 h-5 text-white text-sm leading-5 flex justify-center items-center relative z-10">
+                        <span class="material-icons text-sm">
+                            done
+                        </span>
+                    </div>
+                    <p class="text-green text-center mt-1 lg:mt-2">信用卡付款</p>
+                </li>
+                <li>
+                    <div
+                        class="block mx-auto bg-green rounded-full w-5 h-5 text-white text-sm leading-5 flex justify-center items-center relative z-10">
+                        <span class="material-icons text-sm">
+                            done
+                        </span>
+                    </div>
+                    <p class="text-green text-center mt-1 lg:mt-2">付款成功</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bg-black pt-5 lg:pt-12 pb-10 lg:pb-32">
+        <div class="container sm:container md:container lg:container xl:container 2xl:container">
+            <div class="bg-darkgray lg:bg-lightgray text-white p-6 lg:px-8 lg:py-12 lg:w-1/2 lg:mx-auto">
+                <h2 class="text-center text-2xl font-bold flex justify-center items-center mb-6 lg:mb-12">
+                    <span class="material-icons-outlined text-green text-5xl mr-5">
+                        verified
+                    </span>
+                    完成訂購
+                </h2>
+                <p class="mb-6 lg:mb-8">
+                    恭喜您已完成<span class="font-bold">「2022 Python 全攻略｜從入門到實務」</span>課程報名，請注意郵件訊息，家教老師將與您聯繫！
+                </p>
+                <a href="course.html" id="next"
+                    class="block w-4/5 text-center text-lg rounded-lg bg-color-mix-x px-4 lg:px-12 py-2 mx-auto hover:opacity-50 duration-300">看看其他課程</a>
+            </div>
+        </div>
+    </div>
+</main>

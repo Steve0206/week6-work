@@ -1,0 +1,219 @@
+---
+title: course-detail
+layout: ./app/layout.ejs
+engine: ejs
+current: course-detail
+---
+<main class="pt-[72px] md:pt-[90px]">
+    <div class="py-10 lg:py-20 bg-darkgray">
+        <div class="container sm:container md:container lg:container xl:container 2xl:container">
+            
+
+            <div class="lg:flex lg:gap-6 lg:items-start">
+
+                <!--課程介紹-->
+                <div class="lg:w-3/4">
+                    <div class="bg-lightgray rounded-2xl px-6 py-8 text-white lg:flex">
+                        <div class="mb-6 lg:px-6">
+                            <img src="./assets/images/teacher01.jpg" alt="course" class="mx-auto w-[100px] rounded-full mb-2">
+                            <p class="text-center">Belinda</p>
+                        </div>
+                        <div class="mb-12 space-y-2 lg:w-3/4 lg:px-6">
+                            <h2 class="text-xl font-bold lg:text-2xl">
+                                基礎前端 - HTML
+                            </h2>
+                            <h3 class="text-green">前端語言</h3>
+                            <p>
+                                帶領無基礎的平民老百姓，從最基礎的 HTML
+                                語法出發，使用最淺顯易懂的語言與生活隨處可見的例子，輕鬆進入網頁架設的世界，完成一個基礎的網頁架設。
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--老師介紹-->
+                    <h3 class="text-white text-lg mt-10 lg:mt-12 mb-4">老師介紹</h3>
+                    <div class="bg-lightgray rounded-2xl text-white p-6 lg:p-8">
+                        <ul class="border-b border-gray pb-6 mb-6 space-y-4 lg:flex lg:flex-wrap lg:gap-y-4 lg:space-y-0 lg:-mx-4">
+                            <li class="flex gap-2 lg:w-1/2 lg:px-4">
+                                <span class="material-icons text-green">
+                                    school
+                                </span>
+                                <h4 class="text-gray whitespace-nowrap">學歷</h4>
+                                <p>國立中央大學 資訊工程 碩士 畢業</p>
+                            </li>
+                            <li class="flex gap-2 lg:w-1/2 lg:px-4">
+                                <span class="material-icons text-green">
+                                    business_center
+                                </span>
+                                <h4 class="text-gray whitespace-nowrap">經歷</h4>
+                                <p>2020.08 - 迄今 上市企業 韌體工程師</p>
+                            </li>
+                            <li class="flex gap-2 lg:w-1/2 lg:px-4">
+                                <span class="material-icons text-green">
+                                    translate
+                                </span>
+                                <h4 class="text-gray">語言</h4>
+                                <p>中文/英文</p>
+                            </li>
+                            <li class="flex gap-2 lg:w-1/2 lg:px-4">
+                                <span class="material-icons text-green">
+                                    military_tech
+                                </span>
+                                <h4 class="text-gray">等級</h4>
+                                <p>入門</p>
+                            </li>
+                        </ul>
+                        <p class="mb-6">
+                            目前任職於上市企業 韌體工程師，撰寫各種微控制器韌體程式，如作業系統、系統軟體、裝置控制程式、驅動程式、網路應用程式、系統整合程式、數位訊號處理程式等。
+                        </p>
+                        <p>
+                            興趣是幫助他人學習程式語言，我相信，透過清楚的講解與示範，任何人都可以學好編寫程式與電腦科學中的複雜概念
+                        </p>
+                    </div>
+
+                    <!--課程簡介-->
+                    <h3 class="text-white text-lg mt-10 lg:mt-12 mb-4">課程簡介</h3>
+                    <div class="bg-lightgray rounded-2xl text-white p-6 lg:p-8">
+                        <h4 class="text-lg pl-2 border-l-2 border-green mb-4">這堂課你將會學到：</h4>
+                        <ul class="list-square ml-4 mb-8">
+                            <li class="marker:text-green">網頁設計，基礎知識</li>
+                            <li class="marker:text-green">HTML 語法，概念實作能力</li>
+                            <li class="marker:text-green">CSS , Javascript 概念與知識</li>
+                            <li class="marker:text-green">能做出一個基礎的HTML 網頁</li>
+                        </ul>
+                        <h4 class="text-lg pl-2 border-l-2 border-green mb-8">什麼是 HTML，為什麼要打造網頁，就一定要先學它？</h4>
+                        <p>
+                            HTML元素是構建網站的基石。HTML允許嵌入圖像與物件，並且可以用於建立互動式表單，它被用來結構化資訊——例如標題、段落和列表等等，也可用來在一定程度上描述文件的外觀和語意。
+                            <span class="block mt-8">當你掌握了HTML，就可以開始規劃並建置你想要的網頁內容 !</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!--價錢-->
+                <ul class="py-10 px-6 lg:px-8 bg-lightgray border border-white relative mt-12 lg:mt-0 grow">
+                    <li class="text-white pb-4 border-b border-white">
+                        <a href="join.html" class="flex justify-between items-center group duration-300">
+                            <p class="leading-7 group-hover:text-green">
+                                <span class="text-2xl">NT$1600</span><br>
+                                1堂50分鐘
+                            </p>
+                            <span class="material-icons text-4xl bg-color-mix-y rounded-full text-center leading-9">
+                                chevron_right
+                            </span>
+                        </a>
+                    </li>
+                    <li class="text-white pb-4 border-b border-white mt-4">
+                        <a href="join.html" class="flex justify-between items-center group duration-300">
+                            <p class="leading-7 group-hover:text-green">
+                                <span class="text-2xl">NT$1400</span><br>
+                                3堂50分鐘
+                            </p>
+                            <span class="material-icons text-4xl bg-color-mix-y rounded-full text-center leading-9">
+                                chevron_right
+                            </span>
+                        </a>
+                    </li>
+                    <li class="text-white pb-4 border-b border-white mt-4">
+                        <a href="join.html" class="flex justify-between items-center group duration-300">
+                            <p class="leading-7 group-hover:text-green">
+                                <span class="text-2xl">NT$1000</span><br>
+                                10堂50分鐘
+                            </p>
+                            <span class="material-icons text-4xl bg-color-mix-y rounded-full text-center leading-9">
+                                chevron_right
+                            </span>
+                        </a>
+                    </li>
+                    <li class="text-white pb-4 border-b border-white mt-4">
+                        <a href="join.html" class="flex justify-between items-center group duration-300">
+                            <p class="leading-7 group-hover:text-green">
+                                <span class="text-2xl">NT$900</span><br>
+                                20堂50分鐘
+                            </p>
+                            <span class="material-icons text-4xl bg-color-mix-y rounded-full text-center leading-9">
+                                chevron_right
+                            </span>
+                        </a>
+                    </li>
+                    <li class="text-white mt-4">
+                        <a href="reserve.html" class="flex justify-between items-center group duration-300">
+                            <p class="leading-7 group-hover:text-green">
+                                <span class="text-2xl">洽談報價</span><br>
+                                客製化課程/專案製作
+                            </p>
+                            <span class="material-icons text-4xl bg-color-mix-y rounded-full text-center leading-9">
+                                chevron_right
+                            </span>
+                        </a>
+                    </li>
+                    <div class="w-[10px] h-[10px] bg-white absolute top-[-5px] left-[-5px]"></div>
+                    <div class="w-[10px] h-[10px] bg-white absolute top-[-5px] right-[-5px]"></div>
+                    <div class="w-[10px] h-[10px] bg-white absolute bottom-[-5px] left-[-5px]"></div>
+                    <div class="w-[10px] h-[10px] bg-white absolute bottom-[-5px] right-[-5px]"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-black py-10 lg:py-20">
+        <div class="container sm:container md:container lg:container xl:container 2xl:container">
+            <h3 class="text-2xl lg:text-3xl text-center text-white">其他人也看了這些課程</h3>
+            <div class="green-line mx-auto mt-4 mb-6 lg:mb-12"></div>
+            <ul class="md:flex md:flex-wrap md:-mx-3">
+                <li class="md:w-1/2 md:px-3 xl:w-1/4">
+                    <a href="#"
+                        class="flex flex-col grow text-white bg-lightgray border border-lightgray hover:border-green rounded-2xl h-full duration-300">
+                        <div class="p-8 pt-6 xl:px-6 border-b border-gray flex flex-col grow">
+                            <img src="assets/images/teacher01.jpg" alt="教師頭貼" width="100px" height="100px"
+                                class="rounded-full mx-auto">
+                            <p class="text-center mt-2 mb-6">Belinda</p>
+                            <h4 class="text-xl font-bold mb-2 grow">基礎前端 - HTML</h4>
+                            <span class="text-green block ">前端語言</span>
+                            <p>帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子...</p>
+                        </div>
+                        <h5 class="text-3xl text-center py-4"><span class="text-base mr-4 md:mr-2">50分鐘</span>NT$1600</h5>
+                    </a>
+                </li>
+                <li class="mt-4 md:mt-0 md:w-1/2 md:px-3 xl:w-1/4">
+                    <a href="#" class="flex flex-col grow text-white bg-lightgray border border-lightgray hover:border-green rounded-2xl h-full duration-300">
+                        <div class="p-8 pt-6 xl:px-6 border-b border-gray flex flex-col grow">
+                            <img src="assets/images/teacher02.jpg" alt="教師頭貼" width="100px" height="100px"
+                                class="rounded-full mx-auto">
+                            <p class="text-center mt-2 mb-6">Guava</p>
+                            <h4 class="text-xl font-bold mb-2 grow">2022 Python 全攻略｜從入門到實務</h4>
+                            <span class="text-green block ">後端語言</span>
+                            <p>Python支援多種程式設計範式，包括函數式、指令式、反射式、結構化和物件導向程式設計，它擁有動態型別系...</p>
+                        </div>
+                        <h5 class="text-3xl text-center py-4"><span class="text-base mr-4 md:mr-2">50分鐘</span>NT$2200</h5>
+                    </a>
+                </li>
+                <li class="mt-4 xl:mt-0 md:w-1/2 md:px-3 xl:w-1/4">
+                    <a href="#" class="flex flex-col grow text-white bg-lightgray border border-lightgray hover:border-green rounded-2xl h-full duration-300">
+                        <div class="p-8 pt-6 xl:px-6 border-b border-gray flex flex-col grow">
+                            <img src="assets/images/teacher03.jpg" alt="教師頭貼" width="100px" height="100px"
+                                class="rounded-full mx-auto">
+                            <p class="text-center mt-2 mb-6">Joe</p>
+                            <h4 class="text-xl font-bold mb-2 grow">活用 Line Bot ｜APP 開發到上架完整實戰攻略</h4>
+                            <span class="text-green block ">行動應用開發</span>
+                            <p>Line Bot 可用於實用的目的，如客戶服務或資訊獲取，有些聊天機器人會搭載自然語言處理系統，但大多簡單的...</p>
+                        </div>
+                        <h5 class="text-3xl text-center py-4"><span class="text-base mr-4 md:mr-2">50分鐘</span>NT$1800</h5>
+                    </a>
+                </li>
+                <li class="mt-4 xl:mt-0 md:w-1/2 md:px-3 xl:w-1/4">
+                    <a href="#" class="flex flex-col grow text-white bg-lightgray border border-lightgray hover:border-green rounded-2xl h-full duration-300">
+                        <div class="p-8 pt-6 xl:px-6 border-b border-gray flex flex-col grow">
+                            <img src="assets/images/teacher04.jpg" alt="教師頭貼" width="100px" height="100px"
+                                class="rounded-full mx-auto">
+                            <p class="text-center mt-2 mb-6">Lina</p>
+                            <h4 class="text-xl font-bold mb-2 grow">Linux 零基礎七天入門｜入門到實務</h4>
+                            <span class="text-green block ">作業系統與伺服器</span>
+                            <p>Linux是一種自由和開放原始碼的類UNIX作業系統，作業系統中包含了許多使用者圖形介面和其他實用...</p>
+                        </div>
+                        <h5 class="text-3xl text-center py-4"><span class="text-base mr-4 md:mr-2">50分鐘</span>NT$1100</h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
