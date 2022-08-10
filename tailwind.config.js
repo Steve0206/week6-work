@@ -34,8 +34,8 @@ module.exports = {
         'display': ['"Azeret Mono"','"Noto Sans TC"', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        'home': "url('/assets/images/bg_home.jpg')",
-        'm-home': "url('/assets/images/bg_home_mobile.jpg')",
+        'home': "url('../assets/images/bg_home.jpg')",
+        'm-home': "url('week6-work/assets/images/bg_home_mobile.jpg')",
         'logo' : "url('/assets/images/logo.svg')",
         'm-logo' : "url('/assets/images/logo2.svg')",
         'info-1' : "url('/assets/images/info01.jpg')",
