@@ -1213,7 +1213,7 @@ a{
 .text-color-mix{
         background: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
         background: -o-linear-gradient(top, #09ACF5, #62DB54);
-        background: linear-gradient(top, #09ACF5, #62DB54);
+        background: linear-gradient(to bottom, #09ACF5, #62DB54);
         -webkit-background-clip: text;
                 background-clip: text;
         color: transparent;
@@ -1221,12 +1221,12 @@ a{
 .bg-color-mix-x{
         background: -webkit-gradient(linear, left top, right top, from(#09ACF5), to(#62DB54));
         background: -o-linear-gradient(left, #09ACF5, #62DB54);
-        background: linear-gradient(left, #09ACF5, #62DB54);
+        background: linear-gradient(to right, #09ACF5, #62DB54);
     }
 .bg-color-mix-y {
         background: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
         background: -o-linear-gradient(top, #09ACF5, #62DB54);
-        background: linear-gradient(top, #09ACF5, #62DB54);
+        background: linear-gradient(to bottom, #09ACF5, #62DB54);
     }
 .green-line{
         background: #62DB54;
@@ -1436,7 +1436,7 @@ a{
 .group:hover .group-hover\:text-color-mix{
         background: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
         background: -o-linear-gradient(top, #09ACF5, #62DB54);
-        background: linear-gradient(top, #09ACF5, #62DB54);
+        background: linear-gradient(to bottom, #09ACF5, #62DB54);
         -webkit-background-clip: text;
                 background-clip: text;
         color: transparent;
