@@ -33,9 +33,9 @@ $('document').ready(function () {
 
   swiper.el.onmouseout = function () {
     swiper.autoplay.start();
-  }; //const elem = document.querySelector('input[name="foo"]');
-  //const datepicker = new Datepicker(elem, {
-  //}); 
+  };
 
+  var elem = document.querySelector('input[name="foo"]');
+  var datepicker = new Datepicker(elem, {});
 });
 //# sourceMappingURL=all.js.map
