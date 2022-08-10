@@ -992,22 +992,22 @@ a{
   --tw-bg-opacity: 1;
   background-color: rgb(193 193 193 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\.\/assets\/images\/bg_home_mobile\.jpg\'\)\]{
-  background-image: url('./assets/images/bg_home_mobile.jpg');
+.bg-home{
+  background-image: url('/assets/images/bg_home.jpg');
 }
-.bg-\[url\(\'\.\/assets\/images\/info01\.jpg\'\)\]{
-  background-image: url('./assets/images/info01.jpg');
+.bg-info-1{
+  background-image: url('/assets/images/info01.jpg');
 }
-.bg-\[url\(\'\.\/assets\/images\/info02\.jpg\'\)\]{
-  background-image: url('./assets/images/info02.jpg');
+.bg-info-2{
+  background-image: url('/assets/images/info02.jpg');
 }
-.bg-\[url\(\'\.\/assets\/images\/info03\.jpg\'\)\]{
-  background-image: url('./assets/images/info03.jpg');
+.bg-info-3{
+  background-image: url('/assets/images/info03.jpg');
 }
-.bg-\[url\(\'\.\/assets\/images\/info04\.jpg\'\)\]{
-  background-image: url('./assets/images/info04.jpg');
+.bg-info-4{
+  background-image: url('/assets/images/info04.jpg');
 }
-.bg-\[url\(\'\/assets\/images\/logo2\.svg\'\)\]{
+.bg-m-logo{
   background-image: url('/assets/images/logo2.svg');
 }
 .bg-cover{
@@ -1602,7 +1602,7 @@ a{
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
-  .md\:bg-\[url\(\'\/assets\/images\/logo\.svg\'\)\]{
+  .md\:bg-logo{
     background-image: url('/assets/images/logo.svg');
   }
   .md\:px-3{
@@ -1913,8 +1913,8 @@ a{
     --tw-bg-opacity: 1;
     background-color: rgb(45 45 45 / var(--tw-bg-opacity));
   }
-  .lg\:bg-\[url\(\'\.\/assets\/images\/bg_home\.jpg\'\)\]{
-    background-image: url('./assets/images/bg_home.jpg');
+  .lg\:bg-m-home{
+    background-image: url('/assets/images/bg_home_mobile.jpg');
   }
   .lg\:p-8{
     padding: 2rem;
