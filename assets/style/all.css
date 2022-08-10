@@ -1007,8 +1007,8 @@ a{
 .bg-\[url\(\'\/assets\/images\/info04\.jpg\'\)\]{
   background-image: url('/assets/images/info04.jpg');
 }
-.bg-\[url\(\'\.\/assets\/images\/logo2\.svg\'\)\]{
-  background-image: url('./assets/images/logo2.svg');
+.bg-\[url\(\'\/assets\/images\/logo2\.svg\'\)\]{
+  background-image: url('/assets/images/logo2.svg');
 }
 .bg-cover{
   background-size: cover;
