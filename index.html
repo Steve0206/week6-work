@@ -6,16 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>首頁</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -52,7 +47,7 @@
       </div>
       <ul class="absolute hidden w-screen top-[72px] bg-lightgray py-3 text-center m-menu z-10">
         <li><a href="index.html" class="block text-white text-lg py-3 hover:text-green">首頁</a></li>
-        <li><a href="#" class="block text-white text-lg py-3 hover:text-green">課程介紹</a></li>
+        <li><a href="course.html" class="block text-white text-lg py-3 hover:text-green">課程介紹</a></li>
         <li>
           <a href="#" class="block text-white text-lg py-3 hover:text-green">
             <div class="flex align-center justify-center" data-modal-toggle="login-modal">
@@ -237,7 +232,7 @@
         <div class="green-line mx-auto mt-4"></div>
         <div class="container sm:container md:container lg:container xl:container 2xl:container">
             <ul class="mt-6 lg:mt-12 md:flex md:flex-wrap md:-mx-3">
-                <li class="md:w-1/2 md:px-3 xl:w-1/4">
+                <li class="md:w-1/2 md:px-3 xl:w-1/4 flex flex-col">
                     <a href="#" class="flex flex-col grow text-white bg-lightgray border border-lightgray hover:border-green rounded-2xl h-full">
                         <div class="p-8 pt-6 lg:px-6 border-b border-gray flex flex-col grow">
                             <img src="assets/images/teacher01.jpg" alt="教師頭貼" width="100px" height="100px" class="rounded-full mx-auto">
@@ -273,12 +268,12 @@
                         <h4 class="text-3xl text-center py-4"><span class="text-base mr-4 md:mr-2">50分鐘</span>NT$1800</h4>
                     </a>
                 </li>
-                <li class="mt-4 xl:mt-0 md:w-1/2 md:px-3 xl:w-1/4">
-                    <a href="#" class="block text-white bg-lightgray border border-lightgray hover:border-green rounded-2xl">
-                        <div class="p-8 pt-6 lg:px-6 border-b border-gray">
+                <li class="mt-4 xl:mt-0 md:w-1/2 md:px-3 xl:w-1/4 flex flex-col">
+                    <a href="#" class="flex flex-col grow text-white bg-lightgray border border-lightgray hover:border-green rounded-2xl">
+                        <div class="p-8 pt-6 lg:px-6 border-b border-gray flex flex-col grow">
                             <img src="assets/images/teacher04.jpg" alt="教師頭貼" width="100px" height="100px" class="rounded-full mx-auto">
                             <p class="text-center mt-2 mb-6">Lina</p>
-                            <h3 class="text-xl font-bold mb-2">Linux 零基礎七天入門｜入門到實務</h3>
+                            <h3 class="text-xl font-bold mb-2 grow">Linux 零基礎七天入門｜入門到實務</h3>
                             <span class="text-green block ">作業系統與伺服器</span>
                             <p>Linux是一種自由和開放原始碼的類UNIX作業系統，作業系統中包含了許多使用者圖形介面和其他實用...</p>
                         </div>
@@ -382,39 +377,88 @@
     </section>
 
     <!--student-->
-    <section class="bg-black lg:bg-[url('/assets/images/bg_share.jpg')] lg:bg-cover lg:bg-center pt-10 lg:py-20">
+    <section class="bg-black lg:bg-[url('/assets/images/bg_share.jpg')] lg:bg-cover lg:bg-center py-10 lg:py-20">
         <h2 class="text-2xl lg:text-3xl text-center text-white">專屬你的學習課程<br>超過 3000 位學員得到了程式超能力</h2>
-        <div class="green-line mx-auto mt-4"></div>
+        <div class="green-line mx-auto mt-4 mb-6 lg:mb-12"></div>
         <div class="container sm:container md:container lg:container xl:container 2xl:container">
-            <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events">
-                <div class="swiper-wrapper" id="swiper-wrapper-4387a8c7af913c94" aria-live="polite"
-                    style="transition-duration: 0ms; transform: translate3d(-1259px, 0px, 0px);">
-                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="8"
-                        style="width: 1229px; margin-right: 30px;" role="group" aria-label="9 / 9">Slide 9</div>
-                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
-                        style="width: 1229px; margin-right: 30px;" role="group" aria-label="1 / 9">Slide 1</div>
-                    <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
-                        style="width: 1229px; margin-right: 30px;" role="group" aria-label="2 / 9">Slide 2</div>
-                    <div class="swiper-slide" data-swiper-slide-index="2" style="width: 1229px; margin-right: 30px;" role="group"
-                        aria-label="3 / 9">Slide 3</div>
-                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0"
-                        role="group" aria-label="1 / 9" style="width: 1229px; margin-right: 30px;">Slide 1</div>
+            <div
+                class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper relative lg:mb-12">
+                    <!-- Slides -->
+                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end"
+                        role="group" aria-label="1/3">
+                        <div class="mb-12 lg:mb-0 lg:w-2/5 relative swiper-img">
+                            <img src="./assets/images/share.jpg" alt="work" class="rounded-2xl">
+                        </div>
+                        <div class="relative bg-white rounded-2xl rounded-bl-none p-6 text-[#494755] lg:w-1/3 lg:-ml-7 lg:-mb-12">
+                            <img src="./assets/images/student01.jpg" alt="大頭貼"
+                                class="rounded-full w-20 h-20 lg:w-[100px] lg:h-[100px] absolute -top-10 lg:top-[-50px] right-6 lg:right-8">
+                            <h3 class="mb-2 lg:mb-4 font-bold text-lg">老師很有耐心</h3>
+                            <p class="mb-0">老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end"
+                        role="group" aria-label="1/3">
+                        <div class="mb-12 lg:mb-0 lg:w-2/5 relative swiper-img">
+                            <img src="./assets/images/share.jpg" alt="work" class="rounded-2xl">
+                        </div>
+                        <div class="relative bg-white rounded-2xl rounded-bl-none p-6 text-[#494755] lg:w-1/3 lg:-ml-7 lg:-mb-12">
+                            <img src="./assets/images/student02.jpg" alt="大頭貼"
+                                class="rounded-full w-20 h-20 lg:w-[100px] lg:h-[100px] absolute -top-10 lg:top-[-50px] right-6 lg:right-8">
+                            <h3 class="mb-2 lg:mb-4 font-bold text-lg">老師很漂亮</h3>
+                            <p class="mb-0">老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end" role="group" aria-label="1/3">
+                        <div class="mb-12 lg:mb-0 lg:w-2/5 relative swiper-img">
+                            <img src="./assets/images/share.jpg" alt="work" class="rounded-2xl">
+                        </div>
+                        <div class="relative bg-white rounded-2xl rounded-bl-none p-6 text-[#494755] lg:w-1/3 lg:-ml-7 lg:-mb-12">
+                            <img src="./assets/images/student03.jpg" alt="大頭貼"
+                                class="rounded-full w-20 h-20 lg:w-[100px] lg:h-[100px] absolute -top-10 lg:top-[-50px] right-6 lg:right-8">
+                            <h3 class="mb-2 lg:mb-4 font-bold text-lg">老師很帥</h3>
+                            <p class="mb-0">老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                    <span class="swiper-button-prevmaterial-icons" tabindex="0" role="button" aria-label="Previous slide"
-                        aria-controls="swiper-wrapper-4387a8c7af913c94">west</span>
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
-                        aria-label="Go to slide 1" aria-current="true"></span>
-                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
-                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
-                    <span class="swiper-button-next material-icons" tabindex="0" role="button" aria-label="Next slide"
-                            aria-controls="swiper-wrapper-4387a8c7af913c94">east</span>
+                <!-- 左右按鈕和 pagination -->
+                    <div class="flex items-center justify-center mt-8 lg:absolute lg:left-1/4 lg:bottom-0">
+                        <span class="material-icons swiper-button-prev mr-6" tabindex="-1" role="button"
+                            aria-label="Previous slide" aria-controls="swiper-wrapper-a718f9411a3ad1e3" aria-disabled="true">
+                            west
+                        </span>
+                        <div class="swiper-pagination d-flex swiper-pagination-bullets swiper-pagination-horizontal">
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
+                            <span class="swiper-pagination-bullet"></span>
+                            <span class="swiper-pagination-bullet"></span>
+                        </div>
+                        <span class="material-icons swiper-button-next ml-6" tabindex="0" role="button"
+                            aria-label="Next slide" aria-controls="swiper-wrapper-a718f9411a3ad1e3" aria-disabled="false">
+                            east
+                        </span>
+                    </div>
+            </div>
+
+            <div class="rounded-2xl bg-midgray text-center px-6 py-10 lg:p-12 mt-10 lg:mt-20 lg:w-3/4 mx-auto lg:flex lg:items-center lg:justify-between lg:gap-12">
+                <span class="material-icons mb-6 lg:mb-0 text-8xl font-bold text-gray">
+                    menu_book
+                </span>
+                <div class="text-white lg:text-left">
+                    <h2 class="mb-6 lg:mb-2 text-2xl">
+                        加入我們成為導師
+                    </h2>
+                    <p class="mb-6 lg:mb-0 lg:text-lg">
+                        歡迎各大程式大神加入我們，用知識在世界留下一點影響力。
+                    </p>
                 </div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                <a href="#"
+                    class="block mx-auto text-white text-lg rounded-lg border border-white w-[136px] py-2 lg:ml-0 lg:mr-0 hover:green-active">立即預約</a>
             </div>
         </div>
     </section>
 </main>
+
 
   <footer class="bg-footerbg py-6">
     <p class="text-footergray text-center text-xs md:text-base">Coding Home © 2022 All Rights Reserved</p>
@@ -443,13 +487,13 @@
             <div class="mb-4 md:mb-6">
               <label for="email" class="block mb-2 font-medium text-gray">帳號</label>
               <input type="email" name="email" id="email"
-                class="bg-darkgray border border-white text-gray rounded-lg block w-full py-2 px-4"
+                class="bg-darkgray border border-white text-gray rounded-lg block w-full py-2 px-4 focus:border-green focus:ring-0"
                 placeholder="請輸入帳號" required>
             </div>
             <div class="mb-4 md:mb-6">
               <label for="password" class="block mb-2  font-medium text-gray">密碼</label>
               <input type="password" name="password" id="password" placeholder="請輸入密碼"
-                class="bg-darkgray border border-white text-gray rounded-lg block w-full py-2 px-4"
+                class="bg-darkgray border border-white text-gray rounded-lg block w-full py-2 px-4 focus:border-green focus:ring-0"
                 required>
             </div>
             <input type="submit" class="w-full py-2 text-white text-lg bg-color-mix-x rounded-lg hover:opacity-80" value="送出">
@@ -461,13 +505,13 @@
           </div>
           <ul class="mt-4">
             <li>
-              <a href="#" class="block border border-white text-white py-2 rounded-lg">
+              <a href="#" class="block border border-white text-white py-2 rounded-lg hover:border-green hover:text-green">
                 <p class="text-center relative"><img src="assets/images/icon_fb.svg" alt="google" width="24px" height="24px"
                     class="rounded-full absolute left-14 md:left-8">Facebook 登入</p>
               </a>
             </li>
             <li class="mt-4 md:mt-6">
-              <a href="#" class="block border border-white text-white py-2 rounded-lg">
+              <a href="#" class="block border border-white text-white py-2 rounded-lg hover:border-green hover:text-green">
                 <p class="text-center relative"><img src="assets/images/icon_google.svg" alt="fb" width="24px" height="24px" class="rounded-full absolute left-14 md:left-8">Google 登入</p>
               </a>
             </li>
@@ -480,6 +524,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
   <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
