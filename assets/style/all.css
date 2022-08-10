@@ -992,8 +992,8 @@ a{
   --tw-bg-opacity: 1;
   background-color: rgb(193 193 193 / var(--tw-bg-opacity));
 }
-.bg-home{
-  background-image: url('/assets/images/bg_home.jpg');
+.bg-m-home{
+  background-image: url('week6-work/assets/images/bg_home_mobile.jpg');
 }
 .bg-info-1{
   background-image: url('/assets/images/info01.jpg');
@@ -1913,8 +1913,8 @@ a{
     --tw-bg-opacity: 1;
     background-color: rgb(45 45 45 / var(--tw-bg-opacity));
   }
-  .lg\:bg-m-home{
-    background-image: url('/assets/images/bg_home_mobile.jpg');
+  .lg\:bg-home{
+    background-image: url('../assets/images/bg_home.jpg');
   }
   .lg\:p-8{
     padding: 2rem;
