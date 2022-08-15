@@ -24,18 +24,10 @@ $('document').ready(function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
     }
-  }); //滑鼠移過去停止撥動
-
-  swiper.el.onmouseover = function () {
-    swiper.autoplay.stop();
-  }; //滑鼠移開自動撥放
-
-
-  swiper.el.onmouseout = function () {
-    swiper.autoplay.start();
-  };
-
-  var elem = document.querySelector('input[name="foo"]');
-  var datepicker = new Datepicker(elem, {});
+  });
+  var date = document.querySelector('#date');
+  var datepicker = new Datepicker(date, {
+    language: 'zh-TW'
+  });
 });
 //# sourceMappingURL=all.js.map

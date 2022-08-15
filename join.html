@@ -9,7 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
@@ -99,10 +99,10 @@
                 </div>
             </div>
 
-            <form action="credit-pay.html" method="post" class="p-6 lg:pl-32 lg:pr-8 lg:py-12 text-white bg-darkgray lg:w-3/4">
-                <h3 class="font-bold text-2xl text-center mb-6 lg:mb-12">課程報名</h3>
+            <form action="credit-pay.html" method="post" class="p-6 lg:pl-32 lg:pr-8 lg:py-12 bg-darkgray lg:w-3/4">
+                <h3 class="font-bold text-white text-2xl text-center mb-6 lg:mb-12">課程報名</h3>
                 <p class="font-bold text-lg text-center lg:text-left mb-4 lg:mb-2">選擇付款方式</p>
-                <ul class="text-center flex flex-wrap lg:flex-nowrap -mx-1 lg:-mx-2">
+                <ul class="text-center text-white flex flex-wrap lg:flex-nowrap -mx-1 lg:-mx-2">
                     <li class="w-1/2 lg:w-auto px-1 lg:px-2">
                         <a href="#" class="block p-4 lg:px-8 border border-white rounded-lg hover:text-green hover:border-green duration-300 green-active">信用卡付款</a>
                     </li>
@@ -116,15 +116,15 @@
                         <a href="#" class="block p-4 lg:px-8 border border-white rounded-lg hover:text-green hover:border-green duration-300">12期分期付款</a>
                     </li>
                 </ul>
-                <h3 class="text-center lg:text-left text-lg font-bold mb-4 lg:mb-6 mt-8">訂單資訊</h3>
+                <h3 class="text-center text-white lg:text-left text-lg font-bold mb-4 lg:mb-6 mt-8">訂單資訊</h3>
                 <div class="flex flex-wrap gap-y-4 lg:gap-y-0 mb-6 lg:justify-between">
-                    <div class="w-full lg:w-2/5">
+                    <div class="w-full lg:w-2/5 text-white">
                         <label for="name" class="text-gray mb-1">姓名</label>
                         <input id="name" type="text"
                             class="w-full bg-darkgray border border-white rounded-lg px-4 py-2 placeholder:text-gray focus:border-green focus:ring-0"
                             placeholder="請輸入姓名">
                     </div>
-                    <div class="w-full lg:w-2/5">
+                    <div class="w-full lg:w-2/5 text-white">
                         <label for="tel" class="text-gray mb-1">電話</label>
                         <input id="tel" type="tel"
                             class="w-full bg-darkgray border border-white rounded-lg px-4 py-2 placeholder:text-gray focus:border-green focus:ring-0"
@@ -136,7 +136,7 @@
                             class="w-full bg-darkgray border border-white rounded-lg px-4 py-2 placeholder:text-gray focus:border-green focus:ring-0"
                             placeholder="請輸入Email">
                     </div>
-                    <div class="w-full lg:w-2/5">
+                    <div class="w-full lg:w-2/5 text-white">
                         <label for="course" class="text-gray mb-1">課程</label>
                         <select name="course" id="course"
                             class="w-full bg-darkgray border border-white rounded-lg px-4 py-2 placeholder:text-gray focus:border-green focus:ring-0">
@@ -147,18 +147,17 @@
                     </div>
                     <div class="w-full lg:w-2/5">
                         <label for="date" class="text-gray mb-1">想預約的日期</label>
-                        <input id="date" type="text" name="foo"
-                            class="w-full bg-darkgray border border-white rounded-lg px-4 py-2 placeholder:text-gray focus:border-green focus:ring-0"
+                        <input id="date" type="text" class="datepicker-input w-full bg-darkgray border border-white rounded-lg px-4 py-2 placeholder:text-gray focus:border-green focus:ring-0"
                             placeholder="請選擇日期">
                     </div>
-                    <div class="w-full lg:mt-6">
+                    <div class="w-full lg:mt-6 text-white">
                         <label for="site" class="text-gray mb-1">上課地點</label>
                         <input id="site" type="text"
                             class="w-full bg-darkgray border border-white rounded-lg px-4 py-2 placeholder:text-gray focus:border-green focus:ring-0"
                             placeholder="請輸入上課地點">
                     </div>
                 </div>
-                <div class="lg:flex lg:justify-between lg:items-center">
+                <div class="lg:flex lg:justify-between lg:items-center text-white">
                     <p class="text-lg mb-6 lg:mb-0">NT$1600</p>
                     <a href="credit-pay.html" id="checkout"
                         class="block text-center text-lg rounded-lg bg-color-mix-x w-full sm:w-3/4 sm:mx-auto lg:mx-0 lg:w-auto py-2 lg:px-12 hover:opacity-50 duration-300">前往結賬</a>
@@ -189,12 +188,9 @@
         <button type="button"
           class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
           data-modal-toggle="login-modal">
-          <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"></path>
-          </svg>
+          <span class="material-icons text-white hover:text-black">
+            close
+          </span>
           <span class="sr-only">Close modal</span>
         </button>
         <div class="px-6 lg:px-8">
@@ -240,6 +236,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/locales/zh-TW.js"></script>
   <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>

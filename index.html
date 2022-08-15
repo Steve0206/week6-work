@@ -9,7 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
@@ -68,13 +68,14 @@
 <main class="pt-[72px] md:pt-[90px]">
     <!--banner-->
     <section class="lg:p-20 lg:bg-darkgray">
-        <div class="bg-m-home lg:bg-home bg-cover bg-center sm:bg-top bg-no-repeat
+        <div class="bg-m-home lg:bg-home bg-cover bg-center bg-no-repeat
                     w-full h-[336px] lg:h-[680px] flex justify-center items-center">
-            <div class="relative rounded-0 bg-midgray border border-white py-8 md:py-12 mx-3 container md:w-1/2">
+            <div class="relative bg-midgray border border-white py-8 md:py-12 mx-3 container md:w-1/2">
                 <div class="w-[10px] h-[10px] bg-white absolute top-[-5px] left-[-5px]"></div>
                 <div class="w-[10px] h-[10px] bg-white absolute top-[-5px] right-[-5px]"></div>
                 <div class="w-[10px] h-[10px] bg-white absolute bottom-[-5px] left-[-5px]"></div>
                 <div class="w-[10px] h-[10px] bg-white absolute bottom-[-5px] right-[-5px]"></div>
+                
                 <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white text-center font-bold mb-6"><span class="text-color-mix">全台最豐富的程式家教</span><br>
                     在實踐中化裡想為現實
                 </h2>
@@ -130,7 +131,7 @@
             <ul class="mt-12 lg:mt-18 md:flex md:flex-wrap md:-mx-3">
                 <li class="w-full md:w-1/2 md:px-3 lg:w-1/4">
                     <div class="py-12 border border-white rounded-xl relative">
-                        <div class="w-2/3 md:w-9/12 lg:w-11/12 xl:w-9/12 2xl:w-2/3 mx-auto">
+                        <div class="p-12">
                             <h3 class="text-2xl font-bold">預約</h3>
                             <p class="text-lg mt-4">線上預約指定課程與老師<br>由老師安排專屬課程</p>
                         </div>
@@ -139,7 +140,7 @@
                 </li>
                 <li class="w-full md:w-1/2 md:px-3 lg:w-1/4">
                     <div class="mt-12 md:mt-0 py-12 border border-white rounded-xl relative">
-                        <div class="w-2/3 md:w-9/12 lg:w-11/12 xl:w-9/12 2xl:w-2/3 mx-auto">
+                        <div class="p-12">
                             <h3 class="text-2xl font-bold">付款</h3>
                             <p class="text-lg mt-4">支援各種支付方式<br>提供12期分期付款</p>
                         </div>
@@ -148,7 +149,7 @@
                 </li>
                 <li class="w-full md:w-1/2 md:px-3 lg:w-1/4">
                     <div class="mt-12 lg:mt-0 py-12 border border-white rounded-xl relative">
-                        <div class="w-2/3 md:w-9/12 lg:w-11/12 xl:w-9/12 2xl:w-2/3 mx-auto">
+                        <div class="p-12">
                             <h3 class="text-2xl font-bold">上課</h3>
                             <p class="text-lg mt-4">地點由您指定<br>密集性一對一教學</p>
                         </div>
@@ -157,7 +158,7 @@
                 </li>
                 <li class="w-full md:w-1/2 md:px-3 lg:w-1/4">
                         <div class="mt-12 lg:mt-0 py-12 xl: border border-white rounded-xl relative">
-                        <div class="w-2/3 md:w-9/12 lg:w-11/12 xl:w-9/12 2xl:w-2/3 mx-auto">
+                        <div class="p-12">
                             <h3 class="text-2xl font-bold">提供滿意度</h3>
                             <p class="text-lg mt-4">提供課程滿意度及回饋<br>讓我們持續成長與進步</p>
                         </div>
@@ -170,10 +171,10 @@
 
     <!--program-->
     <section  class="bg-lightgray py-10 md:py-20">
-        <h2 class="text-2xl lg:text-3xl text-center text-white">你想要學習的程式，<br>都在這裡</h2>
+        <h2 class="text-2xl lg:text-3xl text-center text-white">你想要學習的程式，都在這裡</h2>
         <div class="green-line mx-auto mt-4"></div>
         <div class="container sm:container md:container lg:container xl:container 2xl:container">
-            <ul class="mt-6 md:mt-12 -mx-1 md:-mx-2 flex overflow-x-auto pb-8">
+            <ul class="mt-6 md:mt-12 -mx-1 md:-mx-2 flex overflow-x-auto pb-8 font-Noto">
                 <li class="px-1 md:px-2">
                     <a href="#"
                     class="block text-white md:text-lg font-bold border border-white rounded-xl p-4 md:px-8 md:py-6 hover:border-green hover:text-green">JavaScript</a>
@@ -386,7 +387,7 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper relative lg:mb-12">
                     <!-- Slides -->
-                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end"
+                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end px-3 lg:px-0"
                         role="group" aria-label="1/3">
                         <div class="mb-12 lg:mb-0 lg:w-2/5 relative swiper-img">
                             <img src="./assets/images/share.jpg" alt="work" class="rounded-2xl">
@@ -398,7 +399,7 @@
                             <p class="mb-0">老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
                         </div>
                     </div>
-                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end"
+                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end px-3 lg:px-0"
                         role="group" aria-label="1/3">
                         <div class="mb-12 lg:mb-0 lg:w-2/5 relative swiper-img">
                             <img src="./assets/images/share.jpg" alt="work" class="rounded-2xl">
@@ -410,7 +411,7 @@
                             <p class="mb-0">老師手把手的細心教學，用手繪圖，以淺顯易懂的方式，讓零網頁基礎的我也能快速了解網頁的架構與原理，學網頁變得有趣多了！</p>
                         </div>
                     </div>
-                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end" role="group" aria-label="1/3">
+                    <div class="swiper-slide lg:flex lg:justify-center lg:items-end px-3 lg:px-0" role="group" aria-label="1/3">
                         <div class="mb-12 lg:mb-0 lg:w-2/5 relative swiper-img">
                             <img src="./assets/images/share.jpg" alt="work" class="rounded-2xl">
                         </div>
@@ -473,12 +474,9 @@
         <button type="button"
           class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
           data-modal-toggle="login-modal">
-          <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"></path>
-          </svg>
+          <span class="material-icons text-white hover:text-black">
+            close
+          </span>
           <span class="sr-only">Close modal</span>
         </button>
         <div class="px-6 lg:px-8">
@@ -524,6 +522,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/locales/zh-TW.js"></script>
   <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
