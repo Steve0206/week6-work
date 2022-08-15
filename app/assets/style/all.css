@@ -1,4 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import '../node_modules/vanillajs-datepicker/sass/mixins';
+
+@mixin dp-button {
+    .button {
+        /***
+    Place style adjustment for date picker's buttons here, if needed
+     ***/
+
+        .datepicker-header & {
+            @include dp-header-button-common;
+
+            /***
+    Place style adjustment specific to the header buttons here, if needed
+       ***/
+        }
+
+        .datepicker-footer & {
+            @include dp-footer-button-common;
+
+            /***
+    Place style adjustment specific to the footer buttons here, if needed
+       ***/
+        }
+    }
+}
+
+@import '../node_modules/vanillajs-datepicker/sass/datepicker';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,6 +78,9 @@
     .green-active{
         color:#62DB54;
         border-color:#62DB54;
+    }
+    .font-Noto{
+        font-family:"Noto Sans TC",sans-serif;
     }
     .swiper .swiper-pagination .swiper-pagination-bullet {
         background-color: #62DB54;
