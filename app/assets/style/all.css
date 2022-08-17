@@ -34,7 +34,7 @@
 @layer base {
     /*擴充專案的全站樣式*/
     html {
-        font-family: "Azeret Mono", "Noto Sans TC", system-ui, sans-serif;
+        font-family: "Noto Sans TC", system-ui, sans-serif;
     }
     a{
         color:inherit;
@@ -79,8 +79,8 @@
         color:#62DB54;
         border-color:#62DB54;
     }
-    .font-Noto{
-        font-family:"Noto Sans TC",sans-serif;
+    .font-Mono{
+        font-family:"Azeret Mono";
     }
     .swiper .swiper-pagination .swiper-pagination-bullet {
         background-color: #62DB54;
@@ -129,5 +129,8 @@
     .triangle-right {
         border-color: transparent transparent transparent #2D2D2D;
     }
-
+    .datepicker-cell.selected,
+    .datepicker-cell.selected:hover {
+        background-color: #62DB54;
+    }
 }

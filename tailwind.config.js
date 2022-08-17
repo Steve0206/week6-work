@@ -31,7 +31,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'display': ['"Azeret Mono"','"Noto Sans TC"', ...defaultTheme.fontFamily.sans],
+        'display': ['"Noto Sans TC"', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
         'home': "url('../images/bg_home.jpg')",
@@ -42,6 +42,7 @@ module.exports = {
         'info-2' : "url('../images/info02.jpg')",
         'info-3' : "url('../images/info03.jpg')",
         'info-4' : "url('../images/info04.jpg')",
+        'share' : "url('../images/bg_share.jpg')",
       },
     },
   },
