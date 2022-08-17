@@ -507,7 +507,7 @@ select{
 }
 /*擴充專案的全站樣式*/
 html {
-        font-family: "Azeret Mono", "Noto Sans TC", system-ui, sans-serif;
+        font-family: "Noto Sans TC", system-ui, sans-serif;
     }
 a{
         color:inherit;
@@ -676,6 +676,10 @@ a{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
 }
+.-mx-3{
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
 .-mx-1{
     margin-left: -0.25rem;
     margin-right: -0.25rem;
@@ -728,6 +732,12 @@ a{
 .mb-1{
     margin-bottom: 0.25rem;
 }
+.mb-10{
+    margin-bottom: 2.5rem;
+}
+.mb-16{
+    margin-bottom: 4rem;
+}
 .mb-0{
     margin-bottom: 0px;
 }
@@ -736,9 +746,6 @@ a{
 }
 .ml-6{
     margin-left: 1.5rem;
-}
-.mb-10{
-    margin-bottom: 2.5rem;
 }
 .mb-5{
     margin-bottom: 1.25rem;
@@ -1008,9 +1015,6 @@ a{
     --tw-bg-opacity: 1;
     background-color: rgb(32 32 32 / var(--tw-bg-opacity));
 }
-.bg-darkgray\/80{
-    background-color: rgb(28 28 28 / 0.8);
-}
 .bg-footerbg{
     --tw-bg-opacity: 1;
     background-color: rgb(26 26 26 / var(--tw-bg-opacity));
@@ -1018,6 +1022,9 @@ a{
 .bg-gray{
     --tw-bg-opacity: 1;
     background-color: rgb(193 193 193 / var(--tw-bg-opacity));
+}
+.bg-opacity-80{
+    --tw-bg-opacity: 0.8;
 }
 .bg-m-home{
     background-image: url('../images/bg_home_mobile.jpg');
@@ -1033,6 +1040,9 @@ a{
 }
 .bg-info-4{
     background-image: url('../images/info04.jpg');
+}
+.bg-share{
+    background-image: url('../images/bg_share.jpg');
 }
 .bg-m-logo{
     background-image: url('../images/logo2.svg');
@@ -1096,6 +1106,10 @@ a{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
+.px-3{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
 .py-12{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -1107,10 +1121,6 @@ a{
 .px-1{
     padding-left: 0.25rem;
     padding-right: 0.25rem;
-}
-.px-3{
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
 }
 .py-3{
     padding-top: 0.75rem;
@@ -1271,8 +1281,8 @@ a{
         color:#62DB54;
         border-color:#62DB54;
     }
-.font-Noto{
-        font-family:"Noto Sans TC",sans-serif;
+.font-Mono{
+        font-family:"Azeret Mono";
     }
 .swiper .swiper-pagination .swiper-pagination-bullet {
         background-color: #62DB54;
@@ -1312,6 +1322,10 @@ a{
 .list-square{
         list-style-type: square;
         
+    }
+.datepicker-cell.selected,
+    .datepicker-cell.selected:hover {
+        background-color: #62DB54;
     }
 .marker\:text-green *::marker{
     --tw-text-opacity: 1;
@@ -1423,13 +1437,6 @@ a{
     content: var(--tw-content);
     --tw-bg-opacity: 1;
     background-color: rgb(193 193 193 / var(--tw-bg-opacity));
-}
-.hover\:scale-105:hover{
-    --tw-scale-x: 1.05;
-    --tw-scale-y: 1.05;
-    -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-        -ms-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .hover\:border-green:hover{
     --tw-border-opacity: 1;
@@ -1755,6 +1762,10 @@ a{
     .md\:after\:w-\[46\%\]::after{
         content: var(--tw-content);
         width: 46%;
+    }
+
+    .md\:hover\:bg-opacity-0:hover{
+        --tw-bg-opacity: 0;
     }
 
     .group:hover .md\:group-hover\:bg-green{
