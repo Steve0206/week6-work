@@ -82,6 +82,9 @@
     .font-Mono{
         font-family:"Azeret Mono";
     }
+    .font-Noto{
+        font-family: "Noto Sans TC";
+    }
     .swiper .swiper-pagination .swiper-pagination-bullet {
         background-color: #62DB54;
         opacity:1;
